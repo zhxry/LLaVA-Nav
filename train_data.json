@@ -1,0 +1,2018 @@
+[
+    {
+        "images": [
+            "./data/Train/1/1-1.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(3000, 2500), (2140, 2250), (1600, 1730), (900, 1500)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/1/1-2.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(3000, 2500), (2270, 2870), (1600, 2750), (1200, 2230), (900, 1500)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/1/1-3.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(3000, 2500), (2270, 2870), (1600, 2750), (1200, 2230), (900, 1500)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/1/1-4.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(930, 690), (800, 1360), (1400, 1580), (1850, 1920), (2200, 2250), (2680, 2700), (3200, 2950), (3500, 3250), (3800, 3460), (4050, 3680), (4330, 3720)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/1/1-5.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(930, 690), (800, 1360), (710, 1910), (880, 2380), (1140, 2910), (1700, 3250), (2110, 3730), (3060, 3550), (3840, 3610), (4330, 3720)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/1/1-6.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(930, 690), (800, 1360), (710, 1910), (880, 2380), (1140, 2910), (1700, 3250), (2110, 3730), (3060, 3550), (3840, 3610), (4330, 3720)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/1/1-7.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(930, 690), (800, 1360), (710, 1910), (880, 2380), (1140, 2910), (1730, 2980), (2280, 2870), (2840, 2690), (3200, 2950), (3500, 3250), (3800, 3460), (4050, 3680), (4330, 3720)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/2/2-1.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(700, 1110), (1110, 720), (1770, 520), (2590, 690), (3190, 860), (3590, 1190)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/2/2-2.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(690, 1070), (1110, 720), (1730, 540), (2030, 920), (2450, 1000), (3100, 900), (3570, 1170)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/2/2-3.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(720, 1040), (1120, 1160), (1970, 1020), (2660, 980), (3210, 1030), (3590, 1180)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/2/2-4.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(3730, 4790), (3330, 4770), (2920, 4590), (2640, 4290), (2250, 4030), (1730, 3830), (1160, 3540), (620, 3300), (400, 2980)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/2/2-5.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(3770, 4800), (3390, 4610), (3230, 4180), (3140, 3590), (3310, 3170), (3130, 2680), (2720, 2710), (2250, 2860), (1800, 3000), (1280, 2930), (830, 2930), (380, 3000)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/2/2-6.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(3790, 4800), (3310, 4250), (3280, 3610), (2820, 3200), (2300, 2930), (1740, 2970), (1240, 3010), (730, 3000), (440, 3020)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/2/2-7.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(3750, 4780), (3740, 4360), (3730, 3890), (3490, 3410), (3300, 3100), (2810, 2750), (2100, 2880), (1650, 2980), (1140, 2960), (720, 3020), (420, 3030)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/3/3-1.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(420, 4510), (830, 4260), (1090, 3930), (1180, 3430), (1090, 2830), (900, 2390), (1260, 1800)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/3/3-2.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(420, 4500), (440, 3860), (170, 3450), (270, 2970), (490, 2510), (750, 2070), (1270, 1820)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/3/3-3.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(420, 4480), (370, 3760), (220, 3110), (460, 2630), (870, 2310), (1170, 2130), (1260, 1810)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/3/3-4.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(3890, 4850), (4070, 4480), (4060, 4010), (4340, 3590), (4220, 3250), (3910, 2800), (4130, 2420), (3970, 1860), (4340, 1540), (4420, 1090)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/3/3-5.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(3900, 4860), (4170, 4500), (4460, 4060), (4430, 3470), (4120, 3050), (3900, 2700), (4130, 2410), (3960, 1880), (4280, 1530), (4480, 1130)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/3/3-6.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(3940, 4820), (3390, 4670), (3060, 4440), (3150, 3800), (2780, 3220), (3160, 2880), (3470, 2340), (3760, 1860), (4260, 1530), (4530, 1100)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/3/3-7.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(3940, 4830), (4260, 4520), (4540, 4030), (4560, 3480), (4900, 2930), (4700, 2380), (4720, 1880), (4340, 1510), (4470, 1120)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/4/4-1.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(1880, 3490), (1490, 3150), (920, 2960), (750, 2570), (630, 2140), (690, 1760), (490, 1520), (380, 1320)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/4/4-2.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(1880, 3450), (1940, 2850), (1910, 2260), (1390, 2130), (1130, 1810), (840, 1570), (510, 1520), (380, 1270)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/4/4-3.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(1890, 3470), (1350, 3380), (930, 3250), (660, 2910), (650, 2540), (580, 2140), (470, 1600), (370, 1250)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/4/4-4.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(290, 3760), (590, 3430), (780, 2950), (1150, 2560), (1370, 2180), (1640, 1310), (2090, 1180), (2270, 750), (2310, 490)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/4/4-5.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(310, 3770), (620, 3330), (640, 2700), (610, 2130), (750, 1730), (1290, 1260), (1650, 1060), (1970, 690), (2310, 480)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/4/4-6.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(300, 3750), (630, 3520), (1220, 3190), (1500, 2580), (1920, 1950), (2320, 1520), (2250, 1090), (2330, 740), (2300, 500)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/4/4-7.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(310, 3770), (600, 3310), (660, 2690), (650, 2140), (1150, 1930), (1670, 1740), (2190, 1280), (2530, 890), (2300, 480)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/5/5-1.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(4210, 4580), (4000, 4260), (3800, 3820), (3550, 3280), (3600, 2820), (3420, 2300)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/5/5-2.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(4210, 4580), (4490, 4210), (4650, 3810), (4680, 3350), (4860, 2680), (4260, 2400), (3760, 2390), (3410, 2300)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/5/5-3.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(4210, 4590), (4470, 4160), (4420, 3800), (4610, 3340), (4400, 2810), (4030, 2420), (3710, 2370), (3410, 2290)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/5/5-4.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(1000, 1830), (1590, 2120), (1930, 2530), (2220, 2940), (2510, 3320), (3060, 3690), (3310, 4040), (3380, 4460), (3350, 4820)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/5/5-5.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(990, 1820), (1660, 2150), (2220, 2200), (2600, 2250), (2860, 2550), (3230, 2860), (3180, 3570), (3290, 4000), (3450, 4380), (3330, 4800)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/5/5-6.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(1000, 1830), (1600, 2200), (1930, 2530), (2130, 2910), (2000, 3410), (2270, 3820), (2600, 4150), (2920, 4550), (3330, 4810)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/5/5-7.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(970, 1830), (1620, 2160), (1950, 2410), (2240, 2830), (2760, 3150), (3150, 3630), (3320, 4000), (3450, 4410), (3350, 4800)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/6/6-1.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(2240, 4630), (2820, 4250), (3120, 3700), (3530, 3310), (3460, 2860)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/6/6-2.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(2240, 4630), (2330, 4280), (2380, 3750), (2390, 3210), (2650, 2780), (3020, 2840), (3460, 2860)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/6/6-3.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(2230, 4640), (2910, 4320), (3690, 4480), (4180, 4400), (4230, 3700), (3820, 3450), (3810, 2970), (3450, 2830)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/6/6-4.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(1710, 3400), (2020, 2930), (2190, 2640), (2370, 2220), (2610, 1890), (2860, 1400), (3140, 1110), (3420, 580), (3420, 150)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/6/6-5.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(1710, 3370), (1740, 2620), (1530, 2220), (1410, 1780), (1560, 1350), (1560, 910), (1730, 550), (2370, 600), (2730, 400), (3120, 230), (3390, 210)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/6/6-6.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(1690, 3370), (1720, 2660), (1600, 2270), (1460, 1770), (1520, 1290), (2060, 1020), (2350, 720), (2750, 410), (3160, 250), (3400, 160)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/6/6-7.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(1750, 3350), (1700, 2640), (1570, 2240), (1460, 1800), (1500, 1220), (1740, 590), (2330, 520), (2840, 290), (3170, 220), (3390, 160)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/7/7-1.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(3260, 1000), (3200, 1470), (3010, 1900), (3030, 2430), (3200, 2700), (3460, 2980), (3520, 3420), (3400, 3900)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/7/7-2.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(3260, 1000), (3960, 1460), (4140, 2100), (3940, 2980), (3670, 3450), (3400, 3900)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/7/7-3.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(3260, 1000), (2670, 1590), (2440, 2150), (2430, 2750), (2830, 3090), (3160, 3450), (3400, 3900)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/7/7-4.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(300, 1200), (560, 1600), (700, 2070), (1130, 2420), (1400, 2880), (1680, 3260), (1900, 3500), (2300, 3900), (2580, 4040), (2860, 4160), (3200, 4270), (4120, 4400)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/7/7-5.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(300, 1200), (640, 1690), (1480, 1890), (1900, 2280), (2340, 2670), (2690, 2980), (3150, 3430), (3340, 3670), (3710, 4070), (4120, 4400)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/7/7-6.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(300, 1200), (570, 1680), (820, 2080), (1310, 2160), (1900, 2280), (2340, 2670), (2690, 2980), (3150, 3430), (3340, 3670), (3710, 4070), (4120, 4400)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/7/7-7.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(300, 1200), (570, 1680), (820, 2080), (1310, 2160), (1900, 2280), (2340, 2670), (2690, 2980), (3150, 3430), (3340, 3670), (3710, 4070), (4120, 4400)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/8/8-1.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(3480, 1570), (3200, 1090), (2800, 1180), (2360, 1010), (1910, 760), (1450, 830), (1050, 390)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/8/8-2.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(3430, 1570), (2920, 1370), (2310, 1280), (1850, 860), (1450, 810), (1030, 380)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/8/8-3.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(3500, 1560), (3170, 1940), (2670, 1740), (2190, 1590), (1830, 1220), (1430, 1020), (1250, 660), (1020, 390)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/8/8-4.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(3900, 4720), (4110, 4120), (3990, 3510), (4140, 2970), (4430, 2550), (4820, 2130), (4680, 1720), (4560, 1220)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/8/8-5.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(3930, 4720), (4160, 4180), (3770, 3650), (3570, 3130), (3370, 2670), (3650, 2020), (3920, 1580), (4210, 1440), (4550, 1210)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/8/8-6.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(3910, 4690), (4150, 4150), (4500, 3750), (4690, 3190), (4730, 2550), (4810, 2150), (4880, 1600), (4550, 1220)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/8/8-7.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(3930, 4710), (3910, 4140), (3860, 3630), (4380, 3400), (4780, 3140), (4780, 2700), (4800, 2180), (4750, 1710), (4580, 1260)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/9/9-1.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(2870, 2970), (3280, 2250), (3420, 1640), (3530, 1190), (3590, 880), (3720, 570)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/9/9-2.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(2830, 2980), (2550, 2630), (2450, 2280), (2550, 1860), (2650, 1430), (3090, 1150), (3350, 760), (3690, 570)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/9/9-3.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(2830, 2970), (2520, 2600), (2460, 2300), (2530, 1780), (2670, 1340), (2960, 1010), (3310, 680), (3710, 530)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/9/9-4.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(1010, 1330), (1420, 1690), (1960, 2060), (2480, 2330), (2750, 2680), (2980, 3080), (3320, 3670), (3530, 3980), (3690, 4240)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/9/9-5.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(980, 1370), (1440, 1730), (1880, 2050), (2420, 2250), (2700, 2590), (3200, 2590), (4020, 2620), (4310, 2770), (4280, 3280), (4010, 3790), (3960, 4110), (3700, 4270)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/9/9-6.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(980, 1350), (760, 1820), (1160, 2280), (1230, 2790), (1390, 3300), (1580, 3780), (1860, 4020), (2460, 4050), (3010, 3990), (3400, 4090), (3700, 4260)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    },
+    {
+        "images": [
+            "./data/Train/9/9-7.jpg"
+        ],
+        "messages": [
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. The red circle marks the starting point, the yellow circle marks the destination, blue dots or rectangles indicate mandatory waypoints or regions, and green dots or rectangles represent no-fly points or restricted zones. Please provide a valid path (including the start and end points) in the format: [(x1, y1), (x2, y2), ..., (xn, yn)]."
+                    },
+                    {
+                        "index": 0,
+                        "type": "image",
+                        "text": null
+                    }
+                ],
+                "role": "user"
+            },
+            {
+                "content": [
+                    {
+                        "index": null,
+                        "type": "text",
+                        "text": "[(970, 1370), (1460, 1720), (1990, 2030), (2480, 2200), (2960, 2200), (3410, 2170), (3910, 2200), (4020, 2650), (4280, 2810), (4260, 3250), (4000, 3850), (3990, 4110), (3710, 4280)]"
+                    }
+                ],
+                "role": "assistant"
+            }
+        ]
+    }
+]
