@@ -1,9 +1,10 @@
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 import json
 from PIL import Image
 
 import torch
+from peft import LoraConfig, get_peft_model
 from datasets import Dataset, DatasetDict, load_dataset
 from transformers import AutoProcessor, AutoModelForVision2Seq, LlavaForConditionalGeneration
 
@@ -82,6 +83,15 @@ if __name__ == "__main__":
         trust_remote_code=True
     )
 
+    lora_config = LoraConfig(
+        r=8,
+        lora_alpha=16,
+        target_modules=["q_proj", "v_proj", "k_proj", "o_proj", "gate_proj", "up_proj", "down_proj"],
+        lora_dropout=0.1,
+        bias="none",
+        task_type="CAUSAL_LM",
+    )
+
     # 加载数据集
     dataset = get_dataset("./data")
 
@@ -105,20 +115,16 @@ if __name__ == "__main__":
 
         return batch
 
-    # examples = [dataset["train"][0], dataset["train"][1]]
-    # collated_data = collate_fn(examples)
-    # print(collated_data.keys())
-    # exit()
-
     # 配置训练参数
     training_args = SFTConfig(
         output_dir="model/sft",
-        per_device_train_batch_size=2,
+        per_device_train_batch_size=1,
         gradient_accumulation_steps=4,
-        num_train_epochs=4,
+        num_train_epochs=8,
         learning_rate=2e-5,
         bf16=True,
         remove_unused_columns=False,
+        gradient_checkpointing=True,
     )
 
     # 配置模型
@@ -127,7 +133,8 @@ if __name__ == "__main__":
         args=training_args,
         data_collator=collate_fn,
         train_dataset=dataset["train"],
-        processing_class=processor
+        processing_class=processor,
+        peft_config=lora_config,
     )
 
     # 开始训练
