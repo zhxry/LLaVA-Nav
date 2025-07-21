@@ -74,7 +74,7 @@ if __name__ == "__main__":
     if torch.cuda.is_available():
         print(f"GPU name: {torch.cuda.get_device_name()}")
         print(f"GPU memory: {torch.cuda.get_device_properties(0).total_memory / 1024**3:.1f} GB")
-    
+
     model_name = "llava-hf/llava-1.5-7b-hf"
     processor = AutoProcessor.from_pretrained(model_name, trust_remote_code=True)
     model = AutoModelForVision2Seq.from_pretrained(
