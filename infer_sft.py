@@ -1,5 +1,5 @@
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 import torch
 from PIL import Image
@@ -8,7 +8,7 @@ from peft import PeftModel
 
 
 if __name__ == "__main__":
-    base_model_name = "llava-hf/llava-1.5-7b-hf"
+    base_model_name = "Qwen/Qwen2.5-VL-7B-Instruct"
     processor = AutoProcessor.from_pretrained(base_model_name, trust_remote_code=True)
     base_model = AutoModelForVision2Seq.from_pretrained(
         base_model_name,
@@ -16,7 +16,7 @@ if __name__ == "__main__":
         trust_remote_code=True
     )
 
-    adapter_path = "model/sft/"
+    adapter_path = "model/sft-qwen7b/"
     model = PeftModel.from_pretrained(
         base_model,
         adapter_path,
@@ -26,14 +26,14 @@ if __name__ == "__main__":
     model = model.to("cuda")
     model.eval()
 
-    image_path = "data/Train/1/1-1.jpg"
-    image = Image.open(image_path).convert("RGB")
+    image_path = "data/Train/10/10-1.jpg"
+    image = Image.open(image_path).convert("RGB").resize((512, 512), Image.BICUBIC)
     # prompt = (
-    #     "This is a 512*512 remote sensing image. You are required to plan a feasible flight path for a drone. "
+    #     "This is a 512*512 remote sensing image for uav navigation. "
     #     + "The red circle marks the starting point, the yellow circle marks the destination, "
-    #     + "blue dots or rectangles indicate mandatory waypoints or regions, "
-    #     + "and green dots or rectangles represent no-fly points or restricted zones. "
-    #     + "Please provide a valid path (including the start and end points) in the format: "
+    #     + "blue dots (or rectangles) indicate must-pass waypoints (or regions), "
+    #     + "and green dots (or rectangles) represent no-fly points (or regions). "
+    #     + "Please provide a valid and feasible path in the format: "
     #     + "[(x1, y1), (x2, y2), ..., (xn, yn)]."
     # )
     # prompt = (

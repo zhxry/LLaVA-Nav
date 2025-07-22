@@ -1,5 +1,5 @@
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 import json
 from PIL import Image
 
@@ -18,11 +18,11 @@ from trl import (
 def get_dataset(data_dir="./data") -> DatasetDict:
     """加载数据集，样例见 README.md"""
     prompt = (
-        "This is a 5128*5128 remote sensing image. You are required to plan a feasible flight path for a drone. "
+        "This is a 512*512 remote sensing image for uav navigation. "
         + "The red circle marks the starting point, the yellow circle marks the destination, "
-        + "blue dots or rectangles indicate mandatory waypoints or regions, "
-        + "and green dots or rectangles represent no-fly points or restricted zones. "
-        + "Please provide a valid path (including the start and end points) in the format: "
+        + "blue dots (or rectangles) indicate must-pass waypoints (or regions), "
+        + "and green dots (or rectangles) represent no-fly points (or regions). "
+        + "Please provide a valid and feasible path in the format: "
         + "[(x1, y1), (x2, y2), ..., (xn, yn)]."
     )
     datasets = {}
@@ -41,7 +41,7 @@ def get_dataset(data_dir="./data") -> DatasetDict:
                 with open(json_path, "r") as f:
                     json_data = json.load(f)
                 traj = json_data["route"]
-                traj = [tuple(point) for point in traj]
+                traj = [(x // 10, y // 10) for x, y in traj]
                 messages = [
                     {
                         "content": [
@@ -75,7 +75,7 @@ if __name__ == "__main__":
         print(f"GPU name: {torch.cuda.get_device_name()}")
         print(f"GPU memory: {torch.cuda.get_device_properties(0).total_memory / 1024**3:.1f} GB")
 
-    model_name = "llava-hf/llava-1.5-7b-hf"
+    model_name = "Qwen/Qwen2.5-VL-7B-Instruct"
     processor = AutoProcessor.from_pretrained(model_name, trust_remote_code=True)
     model = AutoModelForVision2Seq.from_pretrained(
         model_name,
@@ -100,6 +100,7 @@ if __name__ == "__main__":
         texts = [processor.apply_chat_template(example["messages"], tokenize=False) for example in examples]
         image_paths = [example["images"][0] for example in examples]
         images = [Image.open(img_path).convert("RGB") for img_path in image_paths]
+        images = [img.resize((512, 512), Image.BICUBIC) for img in images]
 
         # Tokenize the texts and process the images
         batch = processor(text=texts, images=images, return_tensors="pt", padding=True)
@@ -117,7 +118,7 @@ if __name__ == "__main__":
 
     # 配置训练参数
     training_args = SFTConfig(
-        output_dir="model/sft",
+        output_dir="model/sft-qwen7b",
         per_device_train_batch_size=1,
         gradient_accumulation_steps=4,
         num_train_epochs=8,
