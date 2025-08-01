@@ -1,12 +1,12 @@
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 import json
 from PIL import Image
 
 import torch
-from peft import LoraConfig, get_peft_model
+from peft import LoraConfig
 from datasets import Dataset, DatasetDict, load_dataset
-from transformers import AutoProcessor, AutoModelForVision2Seq, LlavaForConditionalGeneration
+from transformers import AutoProcessor, AutoModelForVision2Seq
 
 from trl import (
     ModelConfig,
@@ -17,16 +17,19 @@ from trl import (
 
 def get_dataset(data_dir="./data") -> DatasetDict:
     """加载数据集，样例见 README.md"""
-    prompt = (
-        "This is a 512*512 remote sensing image for uav navigation. "
-        + "The red circle marks the starting point, the yellow circle marks the destination, "
-        + "blue dots (or rectangles) indicate must-pass waypoints (or regions), "
-        + "and green dots (or rectangles) represent no-fly points (or regions). "
-        + "Please provide a valid and feasible path in the format: "
-        + "[(x1, y1), (x2, y2), ..., (xn, yn)]."
-    )
+    # prompt = (
+    #     "This is a 512*512 remote sensing image for uav navigation. "
+    #     + "The red circle marks the starting point, the yellow circle marks the destination, "
+    #     + "blue dots (or rectangles) indicate must-pass waypoints (or regions), "
+    #     + "and green dots (or rectangles) represent no-fly points (or regions). "
+    #     + "Please provide a valid and feasible path in the format: "
+    #     + "[(x1, y1), (x2, y2), ..., (xn, yn)]."
+    # )
+    prompt_path = "./prompt.md"
+    with open(prompt_path, 'r', encoding='utf-8') as f:
+        prompt = f.read().strip()
     datasets = {}
-    num_images = 9
+    num_images = 24
     num_trajs = 7
     for split in ["train", "validation"]:
         datasets[split] = []
@@ -75,7 +78,7 @@ if __name__ == "__main__":
         print(f"GPU name: {torch.cuda.get_device_name()}")
         print(f"GPU memory: {torch.cuda.get_device_properties(0).total_memory / 1024**3:.1f} GB")
 
-    model_name = "Qwen/Qwen2.5-VL-7B-Instruct"
+    model_name = "Qwen/Qwen2.5-VL-32B-Instruct"
     processor = AutoProcessor.from_pretrained(model_name, trust_remote_code=True)
     model = AutoModelForVision2Seq.from_pretrained(
         model_name,
@@ -118,11 +121,11 @@ if __name__ == "__main__":
 
     # 配置训练参数
     training_args = SFTConfig(
-        output_dir="model/sft-qwen7b",
+        output_dir="model/sft-qwen32b",
         per_device_train_batch_size=1,
         gradient_accumulation_steps=4,
         num_train_epochs=8,
-        learning_rate=2e-5,
+        learning_rate=2e-5,  # 25 组图片可以改成 1e-5
         bf16=True,
         remove_unused_columns=False,
         gradient_checkpointing=True,

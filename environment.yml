@@ -163,4 +163,3 @@ dependencies:
       - tzdata==2025.2
       - xxhash==3.5.0
       - yarl==1.20.1
-prefix: /home/xry/miniconda3/envs/llava

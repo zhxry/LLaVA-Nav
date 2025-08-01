@@ -1,5 +1,5 @@
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 import torch
 from PIL import Image
@@ -8,7 +8,7 @@ from peft import PeftModel
 
 
 if __name__ == "__main__":
-    base_model_name = "Qwen/Qwen2.5-VL-7B-Instruct"
+    base_model_name = "Qwen/Qwen2.5-VL-32B-Instruct"
     processor = AutoProcessor.from_pretrained(base_model_name, trust_remote_code=True)
     base_model = AutoModelForVision2Seq.from_pretrained(
         base_model_name,
@@ -16,7 +16,7 @@ if __name__ == "__main__":
         trust_remote_code=True
     )
 
-    adapter_path = "model/sft-qwen7b/"
+    adapter_path = "model/sft-qwen32b/"
     model = PeftModel.from_pretrained(
         base_model,
         adapter_path,
@@ -26,7 +26,7 @@ if __name__ == "__main__":
     model = model.to("cuda")
     model.eval()
 
-    image_path = "data/Train/10/10-1.jpg"
+    image_path = "data/Train/25/25-7.jpg"
     image = Image.open(image_path).convert("RGB").resize((512, 512), Image.BICUBIC)
     # prompt = (
     #     "This is a 512*512 remote sensing image for uav navigation. "
@@ -40,9 +40,12 @@ if __name__ == "__main__":
     #     "这是一张 5128*5128 的遥感图像。你需要为无人机规划一条可行的飞行路径。"
     #     + "图中红色圆为起点，黄色圆为终点，紫色点为必经点，绿色为禁飞区，请给出一条像素坐标表示的可行路径。"
     # )
-    prompt = (
-        "请描述这张遥感图像。"
-    )
+    # prompt = (
+    #     "请描述这张遥感图像。"
+    # )
+    prompt_path = "./prompt.md"
+    with open(prompt_path, 'r', encoding='utf-8') as f:
+        prompt = f.read().strip()
 
     messages = [
         {
